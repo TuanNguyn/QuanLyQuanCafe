@@ -1,0 +1,211 @@
+namespace QuanLyQuanCafe_WF
+{
+    partial class FormHoaDon
+    {
+        private System.ComponentModel.IContainer components = null;
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+        private void InitializeComponent()
+        {
+            grpTaoHoaDon = new GroupBox();
+            lblChonBan = new Label();
+            cboBan = new ComboBox();
+            btnTaoHoaDon = new Button();
+            lblBanDangDung = new Label();
+            cboBanDangDung = new ComboBox();
+            btnMoHoaDon = new Button();
+            lblMaHD = new Label();
+            grpThemMon = new GroupBox();
+            lblChonSanPham = new Label();
+            cboSanPham = new ComboBox();
+            lblSoLuong = new Label();
+            txtSoLuong = new TextBox();
+            btnThemMon = new Button();
+            dgvChiTiet = new DataGridView();
+            btnThanhToan = new Button();
+            lblTongTien = new Label();
+            grpTaoHoaDon.SuspendLayout();
+            grpThemMon.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvChiTiet).BeginInit();
+            SuspendLayout();
+            grpTaoHoaDon.Font = new Font("Segoe UI", 9F);
+            grpTaoHoaDon.Location = new Point(20, 15);
+            grpTaoHoaDon.Name = "grpTaoHoaDon";
+            grpTaoHoaDon.Size = new Size(360, 135);
+            grpTaoHoaDon.Text = "Bàn và hóa đơn";
+            grpTaoHoaDon.Controls.Add(lblChonBan);
+            grpTaoHoaDon.Controls.Add(cboBan);
+            grpTaoHoaDon.Controls.Add(btnTaoHoaDon);
+            grpTaoHoaDon.Controls.Add(lblBanDangDung);
+            grpTaoHoaDon.Controls.Add(cboBanDangDung);
+            grpTaoHoaDon.Controls.Add(btnMoHoaDon);
+            grpTaoHoaDon.Controls.Add(lblMaHD);
+            lblChonBan.Font = new Font("Segoe UI", 9F);
+            lblChonBan.Location = new Point(15, 32);
+            lblChonBan.Name = "lblChonBan";
+            lblChonBan.Text = "Chọn bàn trống:";
+            lblChonBan.AutoSize = true;
+            cboBan.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboBan.Location = new Point(125, 29);
+            cboBan.Name = "cboBan";
+            cboBan.Size = new Size(110, 25);
+            btnTaoHoaDon.BackColor = Color.FromArgb(46, 204, 113);
+            btnTaoHoaDon.FlatStyle = FlatStyle.Flat;
+            btnTaoHoaDon.FlatAppearance.BorderSize = 0;
+            btnTaoHoaDon.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnTaoHoaDon.ForeColor = Color.White;
+            btnTaoHoaDon.Location = new Point(245, 26);
+            btnTaoHoaDon.Name = "btnTaoHoaDon";
+            btnTaoHoaDon.Size = new Size(105, 29);
+            btnTaoHoaDon.Text = "TẠO MỚI";
+            btnTaoHoaDon.UseVisualStyleBackColor = false;
+            btnTaoHoaDon.Click += btnTaoHoaDon_Click;
+            lblBanDangDung.Font = new Font("Segoe UI", 9F);
+            lblBanDangDung.Location = new Point(15, 72);
+            lblBanDangDung.Name = "lblBanDangDung";
+            lblBanDangDung.Text = "Bàn đang dùng:";
+            lblBanDangDung.AutoSize = true;
+            cboBanDangDung.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboBanDangDung.Location = new Point(125, 69);
+            cboBanDangDung.Name = "cboBanDangDung";
+            cboBanDangDung.Size = new Size(110, 25);
+            btnMoHoaDon.BackColor = Color.FromArgb(52, 152, 219);
+            btnMoHoaDon.FlatStyle = FlatStyle.Flat;
+            btnMoHoaDon.FlatAppearance.BorderSize = 0;
+            btnMoHoaDon.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnMoHoaDon.ForeColor = Color.White;
+            btnMoHoaDon.Location = new Point(245, 66);
+            btnMoHoaDon.Name = "btnMoHoaDon";
+            btnMoHoaDon.Size = new Size(105, 29);
+            btnMoHoaDon.Text = "MỞ LẠI";
+            btnMoHoaDon.UseVisualStyleBackColor = false;
+            btnMoHoaDon.Click += btnMoHoaDon_Click;
+            lblMaHD.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblMaHD.Location = new Point(15, 105);
+            lblMaHD.Name = "lblMaHD";
+            lblMaHD.Text = "Chua co hoa don";
+            lblMaHD.AutoSize = true;
+            lblMaHD.ForeColor = Color.FromArgb(44, 62, 80);
+            grpThemMon.Font = new Font("Segoe UI", 9F);
+            grpThemMon.Location = new Point(400, 15);
+            grpThemMon.Name = "grpThemMon";
+            grpThemMon.Size = new Size(350, 135);
+            grpThemMon.Text = "Thêm món vào hóa đơn";
+            grpThemMon.Controls.Add(lblChonSanPham);
+            grpThemMon.Controls.Add(cboSanPham);
+            grpThemMon.Controls.Add(lblSoLuong);
+            grpThemMon.Controls.Add(txtSoLuong);
+            grpThemMon.Controls.Add(btnThemMon);
+            lblChonSanPham.Font = new Font("Segoe UI", 9F);
+            lblChonSanPham.Location = new Point(15, 32);
+            lblChonSanPham.Name = "lblChonSanPham";
+            lblChonSanPham.Text = "Sản phẩm:";
+            lblChonSanPham.AutoSize = true;
+            cboSanPham.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboSanPham.Location = new Point(95, 29);
+            cboSanPham.Name = "cboSanPham";
+            cboSanPham.Size = new Size(240, 25);
+            lblSoLuong.Font = new Font("Segoe UI", 9F);
+            lblSoLuong.Location = new Point(15, 72);
+            lblSoLuong.Name = "lblSoLuong";
+            lblSoLuong.Text = "Số lượng:";
+            lblSoLuong.AutoSize = true;
+            txtSoLuong.Location = new Point(95, 69);
+            txtSoLuong.Name = "txtSoLuong";
+            txtSoLuong.Size = new Size(60, 25);
+            btnThemMon.BackColor = Color.FromArgb(52, 152, 219);
+            btnThemMon.FlatStyle = FlatStyle.Flat;
+            btnThemMon.FlatAppearance.BorderSize = 0;
+            btnThemMon.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnThemMon.ForeColor = Color.White;
+            btnThemMon.Location = new Point(165, 66);
+            btnThemMon.Name = "btnThemMon";
+            btnThemMon.Size = new Size(170, 32);
+            btnThemMon.Text = "THÊM MÓN";
+            btnThemMon.UseVisualStyleBackColor = false;
+            btnThemMon.Click += btnThemMon_Click;
+            dgvChiTiet.AllowUserToAddRows = false;
+            dgvChiTiet.AllowUserToDeleteRows = false;
+            dgvChiTiet.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            dgvChiTiet.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvChiTiet.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvChiTiet.Location = new Point(20, 165);
+            dgvChiTiet.MultiSelect = false;
+            dgvChiTiet.Name = "dgvChiTiet";
+            dgvChiTiet.ReadOnly = true;
+            dgvChiTiet.RowHeadersVisible = false;
+            dgvChiTiet.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvChiTiet.Size = new Size(730, 290);
+            btnThanhToan.BackColor = Color.FromArgb(231, 76, 60);
+            btnThanhToan.FlatStyle = FlatStyle.Flat;
+            btnThanhToan.FlatAppearance.BorderSize = 0;
+            btnThanhToan.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnThanhToan.ForeColor = Color.White;
+            btnThanhToan.Location = new Point(20, 470);
+            btnThanhToan.Name = "btnThanhToan";
+            btnThanhToan.Size = new Size(170, 42);
+            btnThanhToan.Text = "THANH TOÁN";
+            btnThanhToan.UseVisualStyleBackColor = false;
+            btnThanhToan.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnThanhToan.Click += btnThanhToan_Click;
+            lblTongTien.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            lblTongTien.Location = new Point(400, 475);
+            lblTongTien.Name = "lblTongTien";
+            lblTongTien.Text = "Tong tien: 0 d";
+            lblTongTien.AutoSize = false;
+            lblTongTien.Size = new Size(350, 32);
+            lblTongTien.ForeColor = Color.FromArgb(231, 76, 60);
+            lblTongTien.TextAlign = ContentAlignment.MiddleRight;
+            lblTongTien.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
+            ClientSize = new Size(770, 530);
+            Controls.Add(grpTaoHoaDon);
+            Controls.Add(grpThemMon);
+            Controls.Add(dgvChiTiet);
+            Controls.Add(btnThanhToan);
+            Controls.Add(lblTongTien);
+            MinimumSize = new Size(700, 500);
+            Name = "FormHoaDon";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Tao hoa don";
+            Load += FormHoaDon_Load;
+            grpTaoHoaDon.ResumeLayout(false);
+            grpTaoHoaDon.PerformLayout();
+            grpThemMon.ResumeLayout(false);
+            grpThemMon.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvChiTiet).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private GroupBox grpTaoHoaDon;
+        private Label lblChonBan;
+        private ComboBox cboBan;
+        private Button btnTaoHoaDon;
+        private Label lblBanDangDung;
+        private ComboBox cboBanDangDung;
+        private Button btnMoHoaDon;
+        private Label lblMaHD;
+        private GroupBox grpThemMon;
+        private Label lblChonSanPham;
+        private ComboBox cboSanPham;
+        private Label lblSoLuong;
+        private TextBox txtSoLuong;
+        private Button btnThemMon;
+        private DataGridView dgvChiTiet;
+        private Button btnThanhToan;
+        private Label lblTongTien;
+    }
+}
